@@ -32,7 +32,7 @@ def remove_unwanted_lines(directory):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 remove_ids.py <folder_path>")
+        print("Usage: python3 reset_ids.py <folder_path>")
     else:
         directory_path = sys.argv[1]
         remove_unwanted_lines(directory_path)
